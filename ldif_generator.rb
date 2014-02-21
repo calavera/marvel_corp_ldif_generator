@@ -84,7 +84,7 @@ cn: Admin
 sn: administrator
 displayName: Directory Superuser
 uid: admin
-userPassword: passworD1
+userPassword: secret
 mail: admin@marvel-corp.com
 objectClass: top
 objectClass: person

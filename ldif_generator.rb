@@ -48,15 +48,15 @@ teams = @team_names.sample(7000).map do |name|
   }
 end
 
-5.times do
-  teams.sample(5000).each do |team|
-    teams.sample(rand(0..10)).each do |subteam|
-      next if subteam == team
-
-      team[:member] << subteam[:dn]
-    end
-  end
-end
+#5.times do
+#  teams.sample(5000).each do |team|
+#    teams.sample(rand(0..10)).each do |subteam|
+#      next if subteam == team
+#
+#      team[:member] << subteam[:dn]
+#    end
+#  end
+#end
 
 comp = """version: 1
 
